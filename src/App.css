@@ -1,0 +1,141 @@
+
+div .wrapper{
+  min-height: 100vh;
+}
+div .page-body{
+  min-height: 80vh;
+  background-color: aqua;
+}
+
+div .paste-link , .get-link{
+  padding: 1rem;
+}
+
+/*nav bar*/
+div .left-logo{
+  width: 100vw;
+  height: 10vh;
+  background-color:#6966F8;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+div .left-logo p{
+  margin-left: 1rem;
+}
+
+/*end nav bar*/
+div .sec-one{
+  display: flex;
+  justify-content: space-between;
+}
+
+div .sec-two{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div .sec-three{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+div .sec-three-head h2{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+div .sec-three-cards{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+/*footer V*/
+div .footer-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color:#6966F8;
+}
+/*end footer nav*/
+
+/* Item card */
+div .card-bg{
+  height: 20vh;
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#998EC3;
+  border-radius: .3rem;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+div .card-input input{
+  width: 350px;
+  height: 30px;
+  text-align: center;
+  border-radius: .2rem;
+  border: none;
+  outline: none;
+  margin-bottom: .5rem;
+}
+div .card-button button{
+  width: 200px;
+  height: 35px;
+  border-radius: .5rem;
+  background-color:#1D72ED;
+  color: aliceblue;
+  border: none;
+  transition: all 1s ease-out ;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+div .card-button button:hover{
+  background-color: #28e69d;
+  color: black;
+}
+/* End Item card */
+
+/* Join us  */
+div .join-us-button button{
+  width: 20vw;
+  height: 5vh;
+  border-radius: .5rem;
+  background-color:#1D72ED;
+  color: aliceblue;
+  border: none;
+  transition: all 1s ease-out ;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+div .join-us-button button:hover{
+  background-color: #28e69d;
+  color: black;
+}
+div .joinBtns{
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+/* status card*/
+
+div .StatusBg{
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #998EC3;
+  border-radius: .3rem;
+}
+div .StCount{
+  font-size: 2rem;
+  font-weight: 600;
+}
+div .StName{
+  font-size: 1.2rem;
+}
