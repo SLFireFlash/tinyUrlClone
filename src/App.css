@@ -5,6 +5,10 @@ div .wrapper{
 div .page-body{
   min-height: 80vh;
   background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 div .paste-link , .get-link{
@@ -48,6 +52,7 @@ div .sec-three-head h2{
 div .sec-three-cards{
   display: flex;
   margin-top: 1rem;
+  gap: 1rem;
   justify-content: space-between;
 }
 
@@ -75,7 +80,7 @@ div .card-bg{
 
 }
 div .card-input input{
-  width: 350px;
+  width: inherit;
   height: 30px;
   text-align: center;
   border-radius: .2rem;
@@ -84,7 +89,7 @@ div .card-input input{
   margin-bottom: .5rem;
 }
 div .card-button button{
-  width: 200px;
+  width:135px;
   height: 35px;
   border-radius: .5rem;
   background-color:#1D72ED;
@@ -138,4 +143,71 @@ div .StCount{
 }
 div .StName{
   font-size: 1.2rem;
+}
+
+/* sign up page */
+div .signInputs{
+  background-color: #998EC3;
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: .4rem;
+}
+div .signInputs h3{
+  margin-bottom: 2rem;
+}
+div .signText{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+div .sign-input{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 1rem;
+}
+div .sign-input input{
+  text-align: center;
+  height: 4vh;
+  border: none;
+  border-radius: .3rem;
+  transition: all 1s ease-out;
+}
+div .sign-input input:focus{
+  outline-color: #28e69d;
+}
+div .sign-btn{
+  padding-top: 1rem;
+}
+a{
+  text-decoration: none;
+}
+
+/* not-found */
+
+div .not-found-bg{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #132846;
+
+}
+div .not-found-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+  margin-bottom: 3rem;
+}
+div .not-found-text h1{
+  color: red;
+  font-size: 6rem;
 }

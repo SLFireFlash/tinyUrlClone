@@ -15,8 +15,14 @@ export default function JoinUs (){
                 </div>
  
             <div className="joinBtns">
-                <ButtonJoinUs BtnName='Sign Up' />
-                <ButtonJoinUs BtnName='Sign In' />
+                <ButtonJoinUs 
+                    BtnName='Sign Up' 
+                    NavPath = '/register'
+                />
+                <ButtonJoinUs 
+                    BtnName='Sign In' 
+                    NavPath = '/login'
+                />
             </div>
 
         </>

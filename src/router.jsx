@@ -8,6 +8,8 @@ import HomePage from "./pages/HomePage";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 import NotFound from "./pages/NotFound";
+import ResetPassword from "./pages/ResetPassword";
+import ResetPasswordV from "./pages/ResetPasswordV";
 
 
 const router = createBrowserRouter([
@@ -30,7 +32,16 @@ const router = createBrowserRouter([
             {
                 path: '/register',
                 element: <SignUp />
+            },
+            {
+                path: '/reset_password',
+                element: <ResetPassword />
+            },
+            {
+                path: '/update_password',
+                element:<ResetPasswordV />
             }
+
         ]
     },
     {

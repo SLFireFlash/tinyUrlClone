@@ -1,19 +1,19 @@
 
 import { Link } from "react-router-dom"
 
-export default function SignIn (props){
+export default function ResetPasswordV (props){
 
     return(
         <>   
             <div className="signInputs">
-                <h3>Lets Sign In</h3>
+                <h3>Lets Update Password</h3>
                 <div className="sign-input">
-                    <input type="text" placeholder = 'User Name' />
-                    <input type="password" placeholder = 'Password' />
+                    <input type="password" placeholder = 'New Password' />
+                    <input type="password" placeholder = 'Re-Type Password' />
                 </div>
                 <div className="sign-btn">
                     <div className="card-button">
-                        <button type="button" onClick={()=>{console.log('sign up')}}>Sign In</button>
+                        <button type="button" onClick={()=>{console.log('reset password 2')}}>Update Password</button>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,7 @@ export default function SignIn (props){
                         <h4>Need Help With,</h4>
                     <div className="sign-help">
                         <p>already have an account <Link to={'/register'}>Register</Link></p>
-                        <p>forget your password <Link to={'/reset_password'}>reset Password</Link></p>
+                        <p>already have an account <Link to={'/login'}>login</Link></p>
                     </div>
             </div>
         </>
